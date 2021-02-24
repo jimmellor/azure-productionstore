@@ -1,0 +1,10 @@
+[storage account credentials]
+blob_storage_connection_string=DefaultEndpointsProtocol=<storage account connection string>
+file_storage_connection_string=DefaultEndpointsProtocol=<storage account connection string>
+
+[global settings]
+ingest_path=Ingest
+metadata_filename=.production
+
+[production defaults]
+default_tree=[{"name":"Sequences", "type":"directory"}, {"name":"Raw Media", "type":"directory"}, {"name":"Audio", "type":"directory"},{"name":"Music", "type":"directory"},{"name":"SFX", "type":"directory"},{"name":"AE", "type":"directory"},{"name":"Recovered", "type":"directory"},{"name":"Reference", "type":"directory"}]
